@@ -1,7 +1,6 @@
 {
       "name":           "ee-taskscheduler"
-    , "description":    "simple task scheduelr class"
-    , "version":        "0.1.0"
+    , "description":    "simple task scheduler class"
     , "homepage":       "https://github.com/eventEmitter/ee-taskscheduler"
     , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "repository": {
@@ -14,9 +13,9 @@
         "url":          "https://github.com/eventEmitter/ee-taskscheduler/issues"
     }    
     , "dependencies": {
-          "ee-class":   "*"
-        , "ee-event":   "*"
-        , "ee-log":     "*"
+          "ee-class":   "0.3.x"
+        , "ee-event":   "0.1.x"
+        , "ee-log":     "0.2.x"
         , "moment":     "2.1.0"
     }
     , "devDependencies": {}
