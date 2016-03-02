@@ -4,12 +4,11 @@
 		, log 		= require( "ee-log" );
 
 
-	var s = new Scheduler( {
-		on: {
-			  error: function( err ){ log.trace( err ); }
-			, log: function( group, id, status, data ){ log.debug( group, id, status, data ); }
-		}
-	} );
+	var s = new Scheduler();
+	
+
+	s.on('error', log);
+	s.on('log', (group, id, status, data) => log.debug(group, id, status, data));
 
 
 
