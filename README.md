@@ -1,5 +1,7 @@
 #ee-taskscheduler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-taskscheduler.svg)](https://greenkeeper.io/)
+
 
 simple task scheduler class
 
