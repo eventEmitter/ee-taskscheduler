@@ -15,9 +15,9 @@
     }    
     , "dependencies": {
           "ee-class":               "1.x"
-        , "ee-event-emitter":       "0.3.x"
-        , "ee-log":                 "0.3.x"
-        , "moment":                 "2.1.0"
+        , "ee-event-emitter":       "~1.0.1"
+        , "ee-log":                 "~2.0.2"
+        , "moment":                 "2.18.1"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
